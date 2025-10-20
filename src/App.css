@@ -56,11 +56,13 @@ button:hover {
 
 /* ===== Pokemon Card ===== */
 .pokemon-card {
-  border:  #eee;
   border-radius: 10px;
   padding: 16px;
   min-height: 280px;
   text-align: center;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 12px;
 }
 
 .error {
@@ -79,6 +81,20 @@ button:hover {
   text-align: center;
 }
 
+.pokemon-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.pokemon-gif-container {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
 .pokemon-image {
   width: 360px;
   height: 360px;
@@ -87,6 +103,18 @@ button:hover {
   border-radius: 8px;
   box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.4), 0 10px 20px 0 rgba(4, 2, 107, 0.59);
   margin-bottom: 20px;
+}
+
+.pokemon-gif {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  background: #fafafa;
+  border-radius: 8px;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.4), 0 10px 20px 0 rgba(4, 2, 107, 0.59);
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-top: 20px;
 }
 
 .pokemon-info h2 {

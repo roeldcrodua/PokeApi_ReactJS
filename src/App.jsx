@@ -57,6 +57,15 @@ export default function App() {
           image:
             data.sprites.other.home.front_default ||
             data.sprites.front_default,
+          gif_front: 
+            data.sprites.other.showdown.front_shiny || 
+            data.sprites.other.showdown.front_default,
+          gif_back: 
+            data.sprites.other.showdown.back_shiny  ||
+            data.sprites.other.showdown.back_default,
+          art_work: 
+            data.sprites.other["official-artwork"].front_shiny ||
+            data.sprites.other["official-artwork"].front_default,
           types: data.types.map((t) => t.type.name),
           abilities: data.abilities.map((a) => a.ability.name),
           baseExperience: data.base_experience ?? "N/A",

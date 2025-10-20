@@ -23,6 +23,29 @@ export default function Pokemon({ pokemon, isLoading, error, addToBan }) {
               alt={pokemon.name}
               className="pokemon-image"
             />
+            <div className='pokemon-gif-container'>
+              <div>
+                <img
+                  src={pokemon.gif_front}
+                  alt={`${pokemon.name} front gif`}
+                  className="pokemon-gif"
+                />
+              </div>
+              <div>
+                <img
+                  src={pokemon.gif_back}
+                  alt={`${pokemon.name} back gif`}
+                  className="pokemon-gif"
+                />
+              </div>
+              <div>
+                <img
+                  src={pokemon.art_work}
+                  alt={`${pokemon.name} art work`}
+                  className="pokemon-gif"
+                />
+              </div>
+            </div>
           </div>
           <div className="pokemon-info">
             <h2>
