@@ -11,7 +11,7 @@ export default function History({ history }) {
           {history.map((p) => (
             <li key={`${p.id}-${p.name}`}>
               <img src={p.image} alt={p.name} />
-              <div>
+              <div className='h-poke-name'>
                 <strong>{p.name}</strong> <span>#{p.id}</span>
                 <p className="types">Types: {p.types.join(", ")}</p>
               </div>

@@ -86,7 +86,7 @@ export default function App() {
       <header>
         <h1>PokeDiscover (PokeAPI)</h1>
         <p>
-          Click <b>Discover</b> to fetch a random Pokémon. Click a{" "}
+          Click <b>Discover</b> to fetch a random Pokemon. Click a{" "}
           <em>Type</em> or <em>Ability</em> to ban it. Click a ban item to
           remove it.
         </p>

@@ -12,7 +12,7 @@ export default function Pokemon({ pokemon, isLoading, error, addToBan }) {
     <div className="pokemon-card">
       {error && <div className="error">{error}</div>}
       {!pokemon && !isLoading && !error && (
-        <div className="placeholder">No Pokémon displayed yet.</div>
+        <div className="placeholder">No Pokemon displayed yet.</div>
       )}
 
       {pokemon && (

@@ -20,7 +20,7 @@ export default function BanList({ banList, removeFromBan }) {
         </div>
       )}
       <p className="hint">
-        Pokémon with banned types or abilities won't be shown again.
+        Pokemon with banned types or abilities won't be shown again.
       </p>
     </div>
   );
