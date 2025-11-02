@@ -1,5 +1,7 @@
 # Web Development Project 4 - PokeDiscover
 
+https://roeldcrodua.github.io/PokeApi_ReactJS/
+
 Submitted by: Roel Crodua
 
 This web app: 
@@ -40,6 +42,7 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 * [x] Added more images from the json result and displayed to the UI.
+* [x] Deploy to github-pages: https://roeldcrodua.github.io/PokeApi_ReactJS/
 
 ## Video Walkthrough
 
